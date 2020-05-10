@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Events in Js</title>
+  
+</head>
+<body>
+	 <b><h1>Events in Javascript</h1></b>
+	<img id="hlo" src="http://3.bp.blogspot.com/-ys9Ibjnxac8/UUEVaQBDkCI/AAAAAAAAAF4/MZbzw4-N5Jw/s1600/shinno.jpg" height="400px" width="350px"  onmouseover="fun1()" onmouseout="fun4()" onclick="fun2()" >
+	<br>
+	<script type="text/javascript">
+		function fun1(){
+			document.getElementById("hlo").src="https://wallpapercave.com/wp/wp2153319.jpg";
+		}
+		function fun4(){
+			document.getElementById("hlo").src="http://www.cartoonloka.com/wp-content/uploads/2013/06/ninja-hattori.jpg";
+		}
+		function fun2(){
+             document.getElementById("hlo").src="https://i.pinimg.com/236x/47/67/70/476770c03e0b7ff83f56fb66c4450137--cartoon-characters-saturday-morning.jpg";
+		}
+		
+	</script>
+	<button onclick="fun6()"> Click me</button>
+	<button onmouseover="fun5()">Click me</button>
+	<button onmouseup="fun3()"> Click me</button>
+	<script type="text/javascript">
+		function fun6(){
+			document.body.style.backgroundColor ='#3b5999';
+			document.body.style.backgroundImage ="url('http://i.ytimg.com/vi/lkqtIxzdD2Y/maxresdefault.jpg')";
+			document.body.style.color = 'pink';
+		}
+		function fun5(){
+			document.body.style.backgroundColor ='#00aced';
+			document.body.style.backgroundImage ="url('https://i.ytimg.com/vi/X8gd1brf9cY/maxresdefault.jpg')";
+			document.body.style.color ='purple';
+		}
+		function fun3(){
+			document.body.style.backgroundColor='#25D366';
+			document.body.style.color ='orange';
+		}
+	</script>
+</body>
+</html>
